@@ -25,6 +25,6 @@ try:
         
     
 except FileNotFoundError:
-    print("please Enter valid dyrectory list")
+    print("please Enter valid directory list")
 except requests.exceptions.MissingSchema:
     print("please Enter valid URL")
