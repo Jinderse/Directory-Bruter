@@ -1,9 +1,5 @@
 # Directory-Bruter
 installation:
-apt update
-apt upgrade
-apt install python
-apt install git
 git clone https://github.com/Jinderse/Directory-Bruter.git
 
 Brief description:
