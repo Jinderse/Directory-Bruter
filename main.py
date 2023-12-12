@@ -1,5 +1,11 @@
 import requests
 from colorama import Fore
+import platform
+info = platform.uname()[0]
+if info == "Windows":
+    exit("Windows users cannot use this tool")
+else:
+    pass
 try:
     
     dirin = input(Fore.CYAN+"Enter dirlist : ")
